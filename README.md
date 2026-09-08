@@ -1,9 +1,10 @@
 # Crypton Sweep Scanned Research Dataset
 
-This repository archives Crypton Sweep source-analysis evidence for open-source
-network and security projects. It is prepared as a research-paper dataset.
-It is not a replacement for the upstream projects and does not contain a copy
-of the Crypton Sweep implementation.
+Crypton Sweep Scanned is a curated research dataset of cryptographic exposure
+and post-quantum migration evidence collected from widely used open-source
+network and security projects. It provides a reproducible basis for comparing
+classical cryptography usage, PQC readiness, and proxy migration candidates
+across representative infrastructure software.
 
 ## Upstream projects and reports
 
@@ -15,10 +16,9 @@ of the Crypton Sweep implementation.
 | Nginx | [nginx/nginx](https://github.com/nginx/nginx) | `reports/ngnix/` |
 | Tailscale | [tailscale/tailscale](https://github.com/tailscale/tailscale) | `reports/tailscale/` |
 
-The four source checkouts are temporary local scan inputs. They are not part of
-the intended final research archive and will be removed after their revisions
-and reports have been verified. Mosquitto is represented by its report and
-upstream GitHub reference because its source checkout is not retained here.
+The four source checkouts are temporary inputs used to produce the archived
+reports. Mosquitto is represented by its report and upstream GitHub reference
+because its source checkout is not retained here.
 
 ## Final archive layout
 
@@ -64,12 +64,10 @@ with the existing artifacts; they mean HAProxy and Nginx respectively.
 
 ## Crypton Sweep tool reference
 
-The original open-source tool is maintained at
+The scans were produced with the open-source Crypton Sweep tool maintained at
 [Gulshan-gaur/crypton-sweep](https://github.com/Gulshan-gaur/crypton-sweep).
 Read the authoritative [Crypton Sweep README](https://github.com/Gulshan-gaur/crypton-sweep/blob/main/README.md)
-for installation, scan, report, and evidence-boundary details. This research
-repository stores scan outputs and provenance only; it does not copy the tool
-source, build tree, credentials, or local development files.
+for installation, scan, report, and evidence-boundary details.
 
 The reports in this archive were generated with Crypton Sweep `0.1.1` using
 authorized local source checkouts.
