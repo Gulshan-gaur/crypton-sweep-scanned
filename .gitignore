@@ -1,0 +1,12 @@
+# Source checkouts are local scan inputs, not vendored into this archive.
+# Add their CRYPTON_SWEEP_README.md files explicitly with `git add -f` when
+# creating a research snapshot; never add the checkout directories themselves.
+/envoy/
+/haproxy/
+/nginx/
+/tailscale/
+
+# Local editor files.
+*.swp
+*~
+.DS_Store
