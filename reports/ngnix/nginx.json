@@ -1,7 +1,7 @@
 {
   "scan_id": "sweep-1788788702721",
   "schema_version": "crypton-sweep/v1",
-  "tool": "crypton-sweep/0.1.1",
+  "tool": "crypton-sweep/0.1.2",
   "started_at": "2026-09-07T13:45:02.687801218+00:00",
   "completed_at": "2026-09-07T13:45:02.721579185+00:00",
   "duration_ms": 33.748633,
